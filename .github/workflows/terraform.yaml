@@ -37,6 +37,10 @@ jobs:
         #with
         # terraform_version: 1.6.3
 
+      - name: Terraform init 
+        id: init 
+        run: terraform init 
+
       - name: Terraform format
         id: fmt 
         run: terraform fmt -check 
