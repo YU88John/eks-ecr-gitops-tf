@@ -1,5 +1,8 @@
 # CI/CD and GitOps - Terraform, GitHub Actions and Kubernetes
 
+> [!CAUTION]
+> This project is for testing purposes. It is strongly advised against using it for production.
+
 ## Project Hierarchy
 
 - `/.github/workflows`: GitHub actions file
@@ -14,6 +17,15 @@
 - AWS CLI Setup
 - Terraform CLI Setup
 - GitHub Account
+
+## Technologies
+
+- AWS (EKS, S3)
+- Terraform 
+- GitHub Actions
+
+> [!NOTE]
+> My last build is intentionally failed as I removed my secrets for security purposes. 
 
 ## How to test this project
 
