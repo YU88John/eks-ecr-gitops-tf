@@ -1,5 +1,9 @@
 # CI/CD and GitOps - Terraform, GitHub Actions and Kubernetes
 
+This repository is a part of my GitHub Actions: CI/CD and GitOps project. It contains terraform files that will create a custom VPC, subnets, and  a three-node EKS cluster. All of this will be provisioned using GitHub Actions. I have made every necessary file public, so you can follow along and test this project as well.
+
+#### <a href="https://github.com/YU88John/eks-ecr-gitops-code">Application repository for this project</a>
+
 > [!CAUTION]
 > This project is for testing purposes. It is strongly advised against using it for production.
 
